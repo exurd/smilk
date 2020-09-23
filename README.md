@@ -48,7 +48,7 @@ You can space the words apart by using --spaced:
 chocolate milk
 ```
 
-Another valid command is:
+You can use different words that are not milk by using the related arguments :
 
 ```
 >smilk -w git -m hub -sw er
