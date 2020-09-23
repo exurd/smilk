@@ -27,8 +27,10 @@ usage: smilk [-h] [--word WORD] [--secondary_word SECONDARY_WORD]
 optional arguments:
   -h, --help            show this help message and exit
   --word WORD, -w WORD  The word itself. No spaces!
-  --secondary_word SECONDARY_WORD, -sw SECONDARY_WORD Secondary word. Added after milk. Not used by default.
+  --secondary_word SECONDARY_WORD, -sw SECONDARY_WORD
+                        Secondary word. Added after milk. Not used by default.
   --milk MILK, -m MILK  Milk. Default is milk.
+  --spaced, -s          Adds spaces between the words.
   --version             show program's version number and exit
 ```
 
@@ -37,6 +39,13 @@ A valid command for smilk is:
 ```
 >smilk -w chocolate
 chocolatemilk
+```
+
+You can space the words apart by using --spaced:
+
+```
+>smilk -w chocolate --spaced
+chocolate milk
 ```
 
 Another valid command is:
